@@ -1,0 +1,86 @@
+.imperialcooking {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.imperialcooking-left {
+    background-color: var(--secondary-color);
+    margin: 0rem .5rem .5rem .5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    flex: 4;
+}
+
+.imperialcooking-right {
+    flex: 1;
+}
+
+.levelinput {
+    font-family: "Source Sans Pro";
+    font-size: 1.125rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0rem .5rem .5rem .5rem;
+}
+
+#mastery-input, #contribution-input {
+    flex: 1;
+}
+
+.stockinput, .cratelevelinput {
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0rem .5rem .5rem .5rem;
+}
+
+.cratelevel {
+    display: block;
+}
+
+.cratesearch {
+    padding: 0rem .5rem 0rem 0rem;
+}
+
+.cratesearch input {
+    width: 100%;
+}
+
+.cratelist {
+    font-size: 1rem;
+}
+
+.cratetable {
+    width: 100%;
+}
+
+.guru, .orange {
+    color: rgb(255, 107, 53);
+}
+
+.master {
+    color: plum;
+}
+
+.artisan {
+    color: palevioletred;
+}
+
+.professional, .yellow {
+    color: gold;
+}
+
+.skilled, .blue {
+    color: skyblue;
+}
+
+.apprentice, .green {
+    color: palegreen;
+}

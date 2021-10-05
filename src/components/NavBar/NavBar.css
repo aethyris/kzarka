@@ -1,0 +1,57 @@
+@import '../../constants.css';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Source Sans Pro", "Open Sans", sans-serif;
+    height: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-img {
+    height: 3rem;
+    padding: .5rem;
+}
+
+.logo-text {
+    font-size: 1.75rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--tertiary-color);
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar-link {
+    text-decoration: none;
+    font-size: 1.25rem;
+    margin: 0;
+    padding: 1.375rem;
+    color: var(--tertiary-color);
+}
+
+.navbar-link:hover {
+    color: var(--accent-color);
+}
+
+.navbar-link:active {
+    color: var(--accent-color);
+}
+
+.navbar-active {
+    border-bottom: .2rem solid var(--accent-color);
+}
